@@ -1,15 +1,10 @@
+@import './globals.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Custom Scrollbar (optional) */
-::-webkit-scrollbar {
-  width: 6px;
-}
-::-webkit-scrollbar-thumb {
-  background-color: #444;
-  border-radius: 6px;
-}
-::-webkit-scrollbar-track {
-  background: transparent;
-}
+/* Optional scrollbar overrides */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-thumb { background-color: #444; border-radius: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
