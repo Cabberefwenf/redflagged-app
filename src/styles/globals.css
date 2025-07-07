@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Override scrollbars for dark mode feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #1f1f1f;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #444;
+  border-radius: 4px;
+}
+
+/* Fade-in animations */
+.fade-in {
+  animation: fadeIn 0.4s ease-in-out forwards;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Typography overrides */
+body {
+  @apply text-white bg-black font-sans antialiased;
+}
+
+/* Flag color badge classes */
+.flag-green {
+  background-color: #22c55e;
+}
+.flag-yellow {
+  background-color: #eab308;
+}
+.flag-red {
+  background-color: #ef4444;
+}
+.flag-black {
+  background-color: #000;
+}
