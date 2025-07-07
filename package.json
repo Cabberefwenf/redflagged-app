@@ -1,0 +1,24 @@
+{
+  "name": "redflagged-app",
+  "version": "1.0.0",
+  "description": "A mobile-first behavioral experience platform for anonymous dating safety reports.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.15.0",
+    "tailwindcss": "^3.4.0",
+    "classnames": "^2.3.2"
+  },
+  "devDependencies": {
+    "vite": "^4.5.0",
+    "typescript": "^5.4.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.30"
+  }
+}
